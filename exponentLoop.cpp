@@ -29,6 +29,6 @@ main() {
     // process & output
     for (repeater = 0; repeater <= number; repeater++) {
         answer = repeater * repeater;
-        std::cout << repeater << "² = " << answer << "." << std::endl;
+        std::cout << repeater << "² = " << answer << std::endl;
     }
 }
